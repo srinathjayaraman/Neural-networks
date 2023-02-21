@@ -1,6 +1,6 @@
 # Neural-networks
 
-This repository contains code used to build an image classifier using Convolutional Neural Networks (CNN's). For this I used the CIFAR10 dataset (pronounced "seefar ten") consisting of 50,000 training images and 10,000 test images. I took 10,000 images from the training set to form a validation set and in order to visualise sample images. The training and testing data-sets are linked [here.](https://drive.google.com/drive/u/0/folders/1e5m7uNK1BXcI_C6u6h9o5WlL2Or4fo3K)
+This repository contains code used to build an image classifier using Convolutional Neural Networks (CNN's). For this I used the CIFAR10 dataset (pronounced "seefar ten") consisting of 50,000 training images and 10,000 test images. I took 10,000 images from the training set to form a validation set and in order to visualise sample images. A modified CNN known as a U-Net was also deployed for the purposes of object detection on remote sensing data (ie. satellite imagery). Object detection is used to classify roads, rivers, buildings, etc. from satellite images. The training and testing data-sets for the satellite images are linked [here.](https://drive.google.com/drive/u/0/folders/1e5m7uNK1BXcI_C6u6h9o5WlL2Or4fo3K)
 
 The following python modules were utilised:
 ```python
